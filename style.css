@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+    font-family: sans-serif;
+    color: white;
+}
+
+div[class^="weather"] {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+}
+
+
+.location {
+    font-size: 30px;   
+    margin-left: 5px;
+    text-align: center;
+}
+
+td[class^="temperature-degree"] {     
+    display: inline;    
+} 
+
+.celsius {
+    display: inline;
+
+}
+
+td[class^="temperature-description"] {
+    text-align: center;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+td[class^="humidity"], td[class^="feels-like"], td[class^="presure"], td[class^="windSpeed"] {    
+    text-align: center;
+    display: inline;
+   
+}
+
+.text {
+display: inline-block;
+margin-left: 8px;
+margin-right: 8px;
+}
+
+table {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.temperatureAndCelsius {
+    text-align: center;
+    font-size: 35px;
+
+}
